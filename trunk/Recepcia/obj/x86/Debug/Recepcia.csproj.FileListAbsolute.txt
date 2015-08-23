@@ -1,0 +1,12 @@
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.Kalendar.resources
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.Properties.Resources.resources
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.Login.resources
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\bin\Debug\Recepcia.exe
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\bin\Debug\Recepcia.pdb
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.exe
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.pdb
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\bin\Debug\MySql.Data.dll
+C:\Users\MuF\Documents\_skola\ZSWI\Recepcia\Recepcia\obj\x86\Debug\Recepcia.PridajHosta.resources

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="e972d94a-953b-48c4-afcf-04d7233897f1" name="Kalendar_btn_odhlasit_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="d2ffc547-1394-4432-b7bc-f9f142bde2f3" name="Kalendar_btn_odhlasit_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="bbae3f5b-a831-43a8-891e-261068ed977a" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="5bc14486-4cbc-4fea-9c31-9dc47b59ec34" LastKnownName="this : Kalendar" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2fe50304-6401-4092-bfab-1f72e3d51ae3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="afbf455a-9f63-4499-968f-707245f028a4" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="41f8b19b-9052-44df-bc6f-89fb5d0f5df0" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="afbf455a-9f63-4499-968f-707245f028a4" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="67f3f008-0733-493b-b563-e869342fc877" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5bc14486-4cbc-4fea-9c31-9dc47b59ec34" LastKnownName="this : Kalendar" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="41f8b19b-9052-44df-bc6f-89fb5d0f5df0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5bc14486-4cbc-4fea-9c31-9dc47b59ec34" LastKnownName="this : Kalendar" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="1941a882-6946-4ab9-83c5-d56fe1a46897" name="LostFoundTarget" />
+          <executionOccurrenceSpecification Id="2fe50304-6401-4092-bfab-1f72e3d51ae3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d4edd5f0-9426-4e6c-b789-3f813ffb54d1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5bc14486-4cbc-4fea-9c31-9dc47b59ec34" LastKnownName="this : Kalendar" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="5bc14486-4cbc-4fea-9c31-9dc47b59ec34" name="this : Kalendar" isActor="false" lifelineDisplayName="this : Kalendar" referencedInstance="(Assembly=$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri) Namespace=Recepcia Type=Kalendar ObjectInstance=&quot;Object instance 3&quot;)" referencedType="Recepcia.Kalendar">
+            <referencesInternal>
+              <reference Id="2b95188b-2395-454c-b0ff-51cf6dbdc875" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Recepcia)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri)&amp;quot; Namespace=Recepcia Type=Kalendar)&quot;)" tag="DGQL" />
+              <reference Id="0f732a12-8a7b-4871-8535-b1aa13d2d976" handle="(Assembly=&quot;$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri)&quot; Namespace=Recepcia Type=Kalendar)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="afbf455a-9f63-4499-968f-707245f028a4" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2fe50304-6401-4092-bfab-1f72e3d51ae3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="905f57f9-4479-441e-b4fd-1ef0b0c201c2" name="btn_odhlasit_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="90df7049-0d86-4ff2-b501-117765e2360a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Recepcia)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri)&amp;quot; Namespace=Recepcia Type=Kalendar)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri)&amp;quot; Namespace=Recepcia Type=Kalendar Member=(Name=btn_odhlasit_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="fd684a0b-c4e2-4641-9ffb-060707c87e48" handle="(Assembly=&quot;$(8c5799ad-7feb-4a34-8323-2a9f27af401c.OutputPathUri)&quot; Namespace=Recepcia Type=Kalendar Member=(Name=btn_odhlasit_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="1941a882-6946-4ab9-83c5-d56fe1a46897" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="41f8b19b-9052-44df-bc6f-89fb5d0f5df0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="67f3f008-0733-493b-b563-e869342fc877" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d4edd5f0-9426-4e6c-b789-3f813ffb54d1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
